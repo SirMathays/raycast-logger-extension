@@ -3,7 +3,7 @@ import { ErrorText, PresentableError } from "./exception"
 import axios, { AxiosResponse } from 'axios'
 
 const prefs: { token: string } = getPreferenceValues()
-export const loggerUrl = `http://logger.test`
+export const loggerUrl = `https://logger.ninja`
 
 export const loggerApi = axios.create({
   baseURL: loggerUrl,
